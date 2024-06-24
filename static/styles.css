@@ -1,0 +1,41 @@
+/* Style for the video feed */
+
+.video-container {
+    width: 640px;
+    height: 480px;
+    margin-bottom: 20px;
+}
+
+
+/* Style for the chat container */
+
+.chat-container {
+    width: 400px;
+}
+
+
+/* Style for chat messages */
+
+.chat-box {
+    height: 300px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+
+/* Style for the input and button */
+
+#user-message {
+    width: 300px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
